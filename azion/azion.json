@@ -1,0 +1,58 @@
+{
+  "name": "MyReactApp20",
+  "bucket": "MyReactApp20",
+  "preset": "react",
+  "mode": "deliver",
+  "env": "production",
+  "prefix": "20240423202755",
+  "not-first-run": true,
+  "function": {
+    "id": 20644,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "./azion/args.json",
+    "instance-id": 20286,
+    "instance-name": "__DEFAULT__"
+  },
+  "application": {
+    "id": 1713909079,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1713907758,
+    "name": "__DEFAULT__"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": [
+    {
+      "origin-id": 126932,
+      "origin-key": "ac1e7626-ff87-4d14-abe6-46c4626156ad",
+      "name": "MyReactApp20_single"
+    },
+    {
+      "origin-id": 126933,
+      "origin-key": "acb75bd7-76d1-4729-a8c6-0917eaf796ca",
+      "name": "origin-storage-default"
+    }
+  ],
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 237902,
+        "name": "Main_Rule"
+      },
+      {
+        "id": 237903,
+        "name": "Index_Rewrite_1"
+      },
+      {
+        "id": 237904,
+        "name": "Index_Rewrite_2"
+      }
+    ]
+  },
+  "cache-settings": null
+}
