@@ -22,7 +22,7 @@ function App() {
           <div>
             <h1>Medium</h1>
             <p>
-              Dive deep into our platform's use cases on Medium and join a community where developers connect, collaborate, and innovate.
+              Hello! It's Me! Dive deep into our platform's use cases on Medium and join a community where developers connect, collaborate, and innovate.
             </p>
           </div>
         </a>
